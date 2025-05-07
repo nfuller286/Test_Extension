@@ -1,11 +1,7 @@
 {
-    "display_name": "Name Displayed in SillyTavern",
-    "loading_order": 9,
-    "requires": [],
-    "optional": [],
-    "js": "index.js",
-    "css": "style.css",
-    "author": "yourNameHere",
-    "version": "1.0.0",
-    "homePage": "yourUrlHere"
+  "name": "Test_Extension",
+  "version": "1.0.0",
+  "entry": "script.js",
+  "author": "YourName",
+  "description": "Testing extension with custom HTML interface."
 }
