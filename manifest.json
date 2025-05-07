@@ -1,7 +1,10 @@
 {
-  "name": "Test_Extension",
-  "version": "1.0.0",
-  "entry": "script.js",
-  "author": "YourName",
-  "description": "Testing extension with custom HTML interface."
+    "display_name": "Test_Extension",
+    "requires": [],
+    "optional": [],
+    "js": "script.js",
+    "css": "style.css",
+    "author": "nfuller286",
+    "version": "1.0.0",
+    "homePage": "https://github.com/nfuller286/Test_Extension"
 }
