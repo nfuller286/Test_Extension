@@ -6,12 +6,20 @@
 </head>
 <body>
   <h2>Test Extension</h2>
-  <button onclick="doSomething()">Click Me</button>
+  
+  <label>
+    <input type="checkbox" id="collapseToggle">
+    Collapse All Messages
+  </label>
 
   <script>
-    function doSomething() {
-      alert('Button inside extension clicked!');
-    }
+    // Send message to parent page (SillyTavern) when checkbox changes
+    document.getElementById('collapseToggle').addEventListener('change', function() {
+      window.parent.postMessage({
+        action: 'toggleCollapse',
+        collapse: this.checked
+      }, '*');
+    });
   </script>
 </body>
 </html>
